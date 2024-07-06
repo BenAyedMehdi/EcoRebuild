@@ -15,17 +15,28 @@ const Component9_1 = () => {
                 className="text-4xl sm:text-[32px] md:text-[34px] text-gray-900 tracking-[-0.72px] w-full"
                 size="txtManropeExtraBold36"
               >
-                Rebuilding Gaza,
-                <br /> Restoring Hope
+                Welcome to EcoRebuild
+                <br />
+                <br />
               </Text>
               <Text
                 className="leading-[180.00%] max-w-[531px] md:max-w-full text-gray-700 text-lg"
                 size="txtManropeRegular18Gray700"
               >
-                Join <strong>EcoRebuild</strong> in transforming lives and
-                landscapes in <strong>Gaza</strong> through sustainable and
-                community-driven <strong>initiatives</strong>. Together, we can
-                create a resilient <strong>future.</strong>
+                At <strong>EcoRebuild</strong>, we are dedicated to{" "}
+                <strong>environmental</strong> renewal and{" "}
+                <strong>community</strong> empowerment. Our mission is to
+                support <strong>sustainable</strong> rebuilding efforts in{" "}
+                <strong>conflict-affected</strong> areas through{" "}
+                <strong>innovative</strong>, cost-effective solutions.
+                <br />
+                <strong>Join us</strong> in making a difference today.
+                 {/* At
+                EcoRebuild, we are dedicated to environmental renewal and
+                community empowerment. Our mission is to support sustainable
+                rebuilding efforts in conflict-affected areas through
+                innovative, cost-effective solutions. Join us in making a
+                difference today. */}
               </Text>
             </div>
             {/* //Todo: place the button with the second component */}

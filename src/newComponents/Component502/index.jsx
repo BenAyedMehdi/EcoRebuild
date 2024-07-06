@@ -20,46 +20,19 @@ const Component502 = () => {
                 className="leading-[180.00%] max-w-[521px] md:max-w-full text-gray-700 text-2xl"
                 size="txtManropeRegular18Gray700"
               >
-                EcoRebuild is an ambitious program initiated to foster
-                ecological resilience and sustainable development in Gaza, a
-                region profoundly affected by conflict and environmental
-                degradation.
-              </Text>
-            </div>
-          </div>
-          <div>
-            <div className="flex flex-row gap-3 items-center justify-start w-full">
-              <div className="bg-gray-600 h-2.5 rounded-[50%] w-2.5"></div>
-              <Text
-                className=" text-lg w-auto"
-                size="txtManropeSemiBold18Gray600"
-              >
-                Environmental Sustainability
-              </Text>
-            </div>
-            <div className="flex flex-row gap-3 items-center justify-start w-full">
-              <div className="bg-gray-600 h-2.5 rounded-[50%] w-2.5"></div>
-              <Text
-                className=" text-lg w-auto"
-                size="txtManropeSemiBold18Gray600"
-              >
-                Economic Development
-              </Text>
-            </div>
-            <div className="flex flex-row gap-3 items-center justify-start w-full">
-              <div className="bg-gray-600 h-2.5 rounded-[50%] w-2.5"></div>
-              <Text
-                className=" text-lg w-auto"
-                size="txtManropeSemiBold18Gray600"
-              >
-                Community Empowerment
+                EcoRebuild is a collaborative initiative aimed at fostering
+                sustainable rebuilding in conflict-affected regions. Our focus
+                is on creating practical, eco-friendly solutions that empower
+                communities to rebuild and thrive. We believe in the power of
+                innovation and community-driven efforts to create a positive
+                impact.
               </Text>
             </div>
           </div>
         </div>
         <Img
           className="flex-1 md:flex-none h-[489px] sm:h-auto max-h-[489px] object-cover rounded-[10px] sm:w-[] md:w-[]"
-          src={general.images.img3}
+          src={general.images.img1}
           alt="rectangleTwenty_One"
         />
       </div>

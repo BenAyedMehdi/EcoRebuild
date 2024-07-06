@@ -9,7 +9,7 @@ const Component2 = () => {
       <div className="bg-green-50 flex flex-col font-manrope items-center justify-center p-[40px] md:px-10 sm:px-5 w-full">
         <div className="flex flex-col font-manrope items-start justify-start md:px-10 sm:px-5 px-[120px] w-full">
           <div className="flex md:flex-col flex-row gap-6 items-center justify-center max-w-[1200px] mx-auto w-full">
-            <div className="bg-red-100 flex flex-1 flex-col h-[424px] md:h-auto items-start justify-center md:px-10 sm:px-5 px-[50px] py-[46px] rounded-[20px] w-full">
+            <div className="bg-red-100 flex flex-1 flex-col h-[524px] md:h-auto items-start justify-center md:px-10 sm:px-5 px-[50px] py-[46px] rounded-[20px] w-full">
               <div className="flex flex-col gap-[50px] items-start justify-start w-full">
                 <div className="flex flex-col gap-4 items-start justify-start w-full">
                   <Text
@@ -24,10 +24,13 @@ const Component2 = () => {
                     className="leading-[180.00%] max-w-[488px] md:max-w-full text-gray-900 text-lg"
                     size="txtManropeRegular18"
                   >
-                    EcoRebuild is an ambitious program initiated to foster
-                    ecological resilience and sustainable development in Gaza, a
-                    region profoundly affected by conflict and environmental
-                    degradation.{" "}
+                    EcoRebuild aims to foster sustainable rebuilding in
+                    conflict-affected areas with innovative, low-cost solutions.
+                    We empower communities through environmental renewal and
+                    self-sufficiency, valuing resilience, sustainability, and
+                    collaboration. Our mission is driven by a commitment to
+                    environmental stewardship and social equity, transforming
+                    challenges into opportunities for lasting positive impact.{" "}
                   </Text>
                 </div>
                 <div className="bg-white-A700 border border-gray-600 border-solid flex flex-1 flex-col  justify-center sm:px-5 text-base text-center px-6 py-[7px] rounded-[10px] w-full">
