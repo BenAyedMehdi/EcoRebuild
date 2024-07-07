@@ -7,7 +7,7 @@ const Component26 = ({ faqsList }) => {
   const FAQS = faqsList ?? [];
   const [searchonevalue, setSearchonevalue] = React.useState("");
   function handleNavigate1(url) {
-    window.location.href = url;
+    window.open(url, "_blank");
   }
   return (
     <>

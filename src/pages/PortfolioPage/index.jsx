@@ -22,8 +22,8 @@ const PortfolioPage = ({projects}) => {
         </div>
         {/* <Component19 />
         <Component20 />  Client review */}
-        
-        <Component7 />
+{/*         
+        <Component7 /> */}
         <LandingPageFooter/>
       </div>
     </>
