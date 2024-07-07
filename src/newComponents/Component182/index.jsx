@@ -7,7 +7,7 @@ const Component182 = ({ projects }) => {
   const PROJECTS = projects ?? [];
   return (
     <>
-      <div className="flex flex-col items-center justify-center md:px-10 sm:px-5 px-[120px] w-full">
+      <div className="flex flex-col items-center gap-[10px] justify-center md:px-10 sm:px-5 px-[120px] w-full">
         <div className="flex sm:flex-col flex-row gap-[130px] items-center justify-center w-full">
           <Text
             className="leading-[140.00%] sm:text-[40px] md:text-[46px] my-8 text-[54px] text-center text-gray-900 tracking-[-1.08px]"
@@ -16,6 +16,13 @@ const Component182 = ({ projects }) => {
             <>Our current projects</>
           </Text>
         </div>
+        <Text
+          className="leading-[180.00%] pl-4 max-w-[821px] text-gray-700 text-2xl"
+          size="txtManropeRegular18Gray700"
+        >
+          EcoRebuild is currently working on four major projects, each designed
+          to address specific challenges in Gaza and beyond
+        </Text>
         <div className=" flex flex-col gap-12 items-center justify-center w-full">
           <>
             <div className="flex flex-col items-center justify-center w-full">
