@@ -7,7 +7,7 @@ const Component14 = ({item}) => {
   const project = item?? projectsList[0];
   return (
     <>
-      <div className="flex flex-col font-manrope items-center justify-center md:px-10 sm:px-5 px-[120px] w-full">
+      <div className="flex flex-col font-manrope items-center justify-center md:px-5 sm:px-1 px-[20px] w-full">
         <div className="flex md:flex-col flex-row gap-6 items-center justify-center max-w-[1200px] mx-auto w-full">
           <div className="flex flex-1 flex-col items-center justify-start w-full">
             <Img

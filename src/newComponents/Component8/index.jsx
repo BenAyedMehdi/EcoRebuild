@@ -14,9 +14,7 @@ const Component8 = () => {
                 className="leading-[140.00%] sm:text-[40px] md:text-[46px] my-8 text-[54px] text-center text-gray-900 tracking-[-1.08px]"
                 size="txtManropeExtraBold54"
               >
-                <>
-                  What's our Vision? 
-                </>
+                <>What's our Vision?</>
               </Text>
               {/* <Img
                 className="h-[300px] md:h-auto object-cover rounded-[10px] w-[300px]"
@@ -29,29 +27,9 @@ const Component8 = () => {
               size="txtManropeBold24"
             >
               <>
-                A future where Gaza is ahub of social innovation,characterized
-                by strongcommunities, robustinfrastructure, and aresilient
-                society, all driven by the collective genius oflocal and
-                globalchangemakers.
-                {/* <li>
-                  <mark>Environmental Sustainability:</mark> Developing and
-                  promoting practices that help restore and protect the
-                  environment, addressing issues such as soil degradation,
-                  energy scarcity, and waste management.
-                </li>
-                <br />
-                <li>
-                  <mark>Economic Development:</mark> Encouraging the growth of
-                  green businesses and sustainable entrepreneurship to stimulate
-                  local economies and provide new opportunities for residents.
-                </li>
-                <br />
-                <li>
-                  <mark>Community Empowerment:</mark> Engaging local communities
-                  in the planning and implementation of projects to ensure that
-                  initiatives meet their needs and harness local knowledge and
-                  skills.
-                </li> */}
+                To see communities in conflict-affected areas rise from the
+                ashes, embracing sustainability and resilience through
+                innovative, frugal solutions.
               </>
             </Text>
           </div>
@@ -61,7 +39,7 @@ const Component8 = () => {
             <div className="flex md:flex-col flex-row gap-6 items-start justify-start w-full">
               <Img
                 className="flex-1 md:flex-none h-[400px] sm:h-auto max-h-[400px] object-cover rounded-[10px] sm:w-[] md:w-[]"
-                src={general.images.img3}
+                src={general.images.img7}
                 alt="rectangle5592"
               />
               <Img

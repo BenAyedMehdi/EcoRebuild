@@ -14,14 +14,7 @@ const Component9 = () => {
                 className="text-4xl sm:text-[32px] md:text-[34px] text-gray-900 tracking-[-0.72px] w-full"
                 size="txtManropeExtraBold36"
               >
-                How we started
-              </Text>
-              <Text
-                className="leading-[180.00%] max-w-[531px] md:max-w-full text-gray-700 text-lg"
-                size="txtManropeRegular18Gray700"
-              >
-                EcoRebuild emerged in response to the profound challenges of
-                conflict and environmental degradation in Gaza.
+                The Phases we go through in every project
               </Text>
             </div>
             <List

@@ -21,21 +21,33 @@ const AboutUsPage = ({ projects }) => {
   return (
     <>
       <div className="bg-white-A700 flex flex-col font-markoone items-center justify-start mx-auto w-auto sm:w-full md:w-full ">
-        
         <div className="flex flex-col items-start justify-start w-full">
           <LandingPageHeader />
-          <div className="flex flex-1 flex-col items-center justify-start mx-auto w-full">
+          {/* <div className="flex flex-1 flex-col items-center justify-start mx-auto w-full">
             <Img
               className="h-[450px] sm:h-auto object-cover w-full"
               src={general.images.img2}
               alt="coverimage"
             />
-          </div>
+          </div> */}
         </div>
 
         <Component5 />
-        <Component10 />
+        <Component10
+          img={general.images.img3}
+          title={"Our mission is straightforward"}
+          paragraph={
+            "To develop and implement sustainable rebuilding projects that address urgent environmental and infrastructural challenges, providing communities with the tools and knowledge to rebuild better and stronger"
+          }
+        />
         <Component8 />
+        <Component10
+          img={general.images.img6}
+          title={"How We Started"}
+          paragraph={
+            "We are a group of individuals from diverse backgrounds and specialities, united by a common goal: to make a tangible difference. By connecting with like-minded, driven people, we leverage our collective knowledge and skills to create innovative solutions and drive sustainable change."
+          }
+        />
         <Component9 />
         {/* <div className="w-[40rem] md:w-[35] sm:w-full">
           <DemoCarousel />
@@ -43,7 +55,7 @@ const AboutUsPage = ({ projects }) => {
         <div className="bg-deep_orange-50  flex flex-col font-manrope items-center justify-center p-[40px] md:px-10 sm:px-5 w-full">
           <Component4 projects={projects} />
         </div>
-        <LandingPageFooter/>
+        <LandingPageFooter />
       </div>
     </>
   );
