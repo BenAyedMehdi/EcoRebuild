@@ -11,3 +11,4 @@
 ## v1.2
 - Planned: 7/7/2024
 - awaiting client response
+- hotfix: Contact page not updated
