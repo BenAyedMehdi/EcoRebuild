@@ -1,17 +1,17 @@
 export const general = {
     logo: "ecorebuild_images/pnglogo.png",
     name: "EcoRebuild",
-    address: "Amman, Jordan",
+    address: "Amirat Alshuraiq St, Amman 00962, Jordan",
     intro: "punchline, paragraph",
     instagram: "https://www.instagram.com/eco_rebuild/",
     // facebook: "https://www.facebook.com/happy.mahdi/",
     // linkedin: "https://www.linkedin.com/in/ben-ayed-mehdi/",
     youtube: "https://www.youtube.com/channel/UCcJRMal-mHtTVnuU33jv9-Q",
     email: "info@ecorebuild.org",
-    phone: "00962780106176",
+    phone: "+962 780 106 176",
     // website: "mehdibenayed.netlify.app",
     punchline: "Our mission is to create an eco-friendly community.",
-
+    callToAction: "Stay updated on our latest projects and initiatives by following us on social media.",
     images: {
       img1: "ecorebuild_images/ecorebuildlogo.PNG",
       img2: "ecorebuild_images/sunsetportrait.jpg",
