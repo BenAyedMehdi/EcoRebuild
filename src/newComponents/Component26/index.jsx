@@ -3,10 +3,11 @@ import React from "react";
 import { Button, Img, Input, Line, List, Text } from "components";
 import { CloseSVG } from "../../assets/images";
 
-const Component26 = () => {
+const Component26 = ({ faqsList }) => {
+  const FAQS = faqsList ?? [];
   const [searchonevalue, setSearchonevalue] = React.useState("");
-  function handleNavigate1() {
-    window.location.href = "https://relasto.com";
+  function handleNavigate1(url) {
+    window.location.href = url;
   }
   return (
     <>
@@ -54,69 +55,36 @@ const Component26 = () => {
                   className="flex flex-col gap-5 items-center w-full"
                   orientation="vertical"
                 >
-                  <div className="flex flex-1 flex-col gap-4 items-start justify-start w-full">
-                    <Text
-                      className="text-gray-900 text-2xl tracking-[-0.40px] w-full"
-                      size="txtManropeSemiBold20Gray900"
-                    >
-                      Can I volunteer with EcoRebuild? How do I apply?
-                    </Text>
-                    <div className="flex flex-col gap-2.5 items-start justify-start w-full">
-                      <Text
-                        className="text-base text-gray-600 w-full"
-                        size="txtManropeSemiBold16Gray600"
-                      >
-                       Yes, we welcome volunteers! You can apply through our
-                        website by filling out the volunteer application form
-                        under the 'Get Involved' section.
-                      </Text>
-                    </div>
-                  </div>
-                  <Line className="self-center h-px bg-bluegray-100 w-full" />
-                  <div className="flex flex-1 flex-col gap-4 items-start justify-start w-full">
-                    <Text
-                      className="text-gray-900 text-2xl tracking-[-0.40px] w-full"
-                      size="txtManropeSemiBold20Gray900"
-                    >
-                      {/* <>You&#39;re viewing sample results.</> */}
-                      Are there opportunities for corporate partnerships with
-                      EcoRebuild?
-                    </Text>
-                    <div className="flex flex-col gap-2.5 items-start justify-start w-full">
-                      <Text
-                        className="text-base text-gray-600 w-full"
-                        size="txtManropeSemiBold16Gray600"
-                      >
-                        Absolutely, we value corporate partnerships and offer
-                        several collaboration options, including project
-                        sponsorship, in-kind donations, and employee volunteer
-                        programs. Please contact our partnership team for more
-                        information.
-                      </Text>
-                    </div>
-                  </div>
-                  <Line className="self-center h-px bg-bluegray-100 w-full" />
-                  <div className="flex flex-1 flex-col gap-4 items-start justify-start w-full">
-                    <Text
-                      className="text-gray-900 text-2xl tracking-[-0.40px] w-full"
-                      size="txtManropeSemiBold20Gray900"
-                    >
-                      {/* <>You&#39;re viewing sample results.</> */}
-                      How does EcoRebuild choose its projects?
-                    </Text>
-                    <div className="flex flex-col gap-2.5 items-start justify-start w-full">
-                      <Text
-                        className="text-base text-gray-600 w-full"
-                        size="txtManropeSemiBold16Gray600"
-                      >
-                      Projects are selected based on community needs
-                      assessments, sustainability potential, and their
-                      alignment with our core mission. We engage with local
-                      stakeholders and experts to ensure that our projects
-                      address the most pressing needs effectively.
-                      </Text>
-                    </div>
-                  </div>
+                  {FAQS.map((faq) => (
+                    <React.Fragment key={`LandingPageCard${faq.id}`}>
+                      <div className="flex flex-1 flex-col gap-4 items-start justify-start w-full">
+                        <Text
+                          className="text-gray-900 text-2xl tracking-[-0.40px] w-full"
+                          size="txtManropeSemiBold20Gray900"
+                        >
+                          {faq.question}
+                        </Text>
+                        <div className="flex flex-col gap-2.5 items-start justify-start w-full">
+                          <Text
+                            className="text-base text-gray-600 w-full"
+                            size="txtManropeSemiBold16Gray600"
+                          >
+                            {faq.answer}
+                          </Text>
+                          <a
+                            className="common-pointer text-base text-gray-600 w-full url-link"
+                            size="txtManropeSemiBold16Gray600"
+                            onClick={()=>handleNavigate1(faq.url)}
+                          >
+                            {faq.url}
+                          </a>
+                        </div>
+                      </div>
+                      {faq.id !== FAQS[FAQS.length - 1].id && (
+                        <Line className="self-center h-px bg-bluegray-100 w-full" />
+                      )}
+                    </React.Fragment>
+                  ))}
                 </List>
               </div>
             </div>

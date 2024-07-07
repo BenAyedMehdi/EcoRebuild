@@ -5,7 +5,7 @@ import LandingPageHeader from "components/LandingPageHeader";
 import LandingPageFooter from "components/LandingPageFooter";
 import Component26 from "newComponents/Component26";
 
-const FAQPage = () => {
+const FAQPage = ({faqsList}) => {
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -15,7 +15,7 @@ const FAQPage = () => {
     <>
       <div className="bg-gray-51 flex flex-col font-markoone sm:gap-10 md:gap-10 gap-[68px] items-center justify-start mx-auto w-auto sm:w-full md:w-full">
       <LandingPageHeader/>
-        <Component26 />
+        <Component26 faqsList={faqsList}/>
         <LandingPageFooter />
 
       </div>

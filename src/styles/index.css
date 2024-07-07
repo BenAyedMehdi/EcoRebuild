@@ -1,3 +1,11 @@
+.url-link {
+  display: block; /* or inline-block */
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  max-width: 100%; /* Ensure it doesn't exceed the parent's width */
+}
+
 * {
   box-sizing: border-box;
   line-height: normal;
