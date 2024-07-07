@@ -10,3 +10,4 @@
 - Demo to Client: 8/6/2024
 ## v1.2
 - Planned: 7/7/2024
+- awaiting client response
