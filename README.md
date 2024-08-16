@@ -11,7 +11,7 @@
 ## v1.2
 - Demo to Client: 7/7/2024
 ## v1.3
-- Demo to Client: 16/8/2024
+- Demo to Client: 16/8/2024 (released)
 - Underline in blue the hover on link in faq
 - Add new pad images
 - Add project images Modal
