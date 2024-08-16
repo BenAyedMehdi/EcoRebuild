@@ -10,7 +10,7 @@ import { general } from "general";
 const LandingPageHeader = (props) => {
   return (
     <>
-      <header className=" bg-white-A700 flex gap-2 h-20 md:h-auto items-center justify-between md:px-5  py-[19px] w-full z-50">
+      <header className=" bg-white-A700 flex gap-2 h-20 md:h-auto items-center justify-between md:px-5  py-[19px] w-full z-10">
         <div className="flex md:flex-col flex-row md:gap-10 sm:gap-1 items-center justify-around w-full">
           <div className="header-row my-px">
             <div className="flex flex-row gap-[11px] items-center justify-start">

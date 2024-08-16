@@ -69,7 +69,7 @@ const Component15 = ({ project }) => {
                 </div>
               </div>
             </div>
-            <div className="bg-white-A700 border border-bluegray-100 border-solid flex flex-col items-start justify-start p-10 sm:px-5 rounded-[10px] w-full">
+            {/* <div className="bg-white-A700 border border-bluegray-100 border-solid flex flex-col items-start justify-start p-10 sm:px-5 rounded-[10px] w-full">
               <div className="flex flex-col gap-6 items-start justify-start w-full">
                 <Text
                   className="sm:text-2xl md:text-[26px] text-[28px] text-gray-900 tracking-[-0.56px] w-auto"
@@ -189,7 +189,7 @@ const Component15 = ({ project }) => {
                   </div>
                 </List>
               </div>
-            </div>
+            </div> */}
             {/* <div className="bg-white-A700 border border-bluegray-100 border-solid flex flex-col items-start justify-start p-10 sm:px-5 rounded-[10px] w-full">
               <div className="flex flex-col gap-[26px] items-start justify-start w-full">
                 <Text
