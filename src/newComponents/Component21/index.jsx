@@ -42,18 +42,16 @@ const Component21 = () => {
               className="sm:text-[40px] md:text-[46px] text-[54px] text-center text-gray-900 tracking-[-1.08px] w-full"
               size="txtManropeExtraBold54"
             >
-              We're Here to Help!
+              Get in Touch
             </Text>
             <div className="flex sm:flex-col flex-row gap-[50px] items-center justify-center w-full">
               <Text
                 className="leading-[180.00%] max-w-[1200px] md:max-w-full text-center text-gray-600 text-lg"
                 size="txtManropeRegular18Gray600"
               >
-                Contact us with any questions or get involved with EcoRebuild
-                today.
+                We'd love to hear from you! Whether you have questions, want to
+                get involved, or need more information, feel free to reach out.
                 <br />
-                Your innovative ideas deserve the best solutions, and we are
-                excited to hear about them!
               </Text>
               <Img
                 className="h-auto object-cover rounded-[10px] w-[182px]"
@@ -120,6 +118,15 @@ const Component21 = () => {
                 >
                   Follow us
                 </Text>
+                  <Text
+                    className="leading-[180.00%] text-gray-600 text-lg"
+                    size="txtManropeSemiBold18Gray600"
+                  >
+                    <>
+                      {general.callToAction}
+                      <br />
+                    </>
+                  </Text>
                 <div className="flex flex-row gap-4 items-start justify-start w-full">
                   <a target="_blank" rel="noreferrer" href={general.instagram}>
                     <svg
