@@ -7,10 +7,13 @@
 }
 
 * {
+  max-width: 100%;
   box-sizing: border-box;
   line-height: normal;
 }
-body {
+html, body {
+  width: 100%;
+  overflow-x: hidden;
   font-family: "Roboto", sans-serif !important;
   margin: 0;
   padding: 0;

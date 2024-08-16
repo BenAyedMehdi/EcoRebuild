@@ -72,9 +72,9 @@ const Component26 = ({ faqsList }) => {
                             {faq.answer}
                           </Text>
                           <a
-                            className="common-pointer text-base text-gray-600 w-full url-link"
+                            className="common-pointer text-base text-gray-600 w-full hover:underline hover:text-blue-500"
                             size="txtManropeSemiBold16Gray600"
-                            onClick={()=>handleNavigate1(faq.url)}
+                            onClick={() => handleNavigate1(faq.url)}
                           >
                             {faq.url}
                           </a>

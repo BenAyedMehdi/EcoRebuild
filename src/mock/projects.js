@@ -1,5 +1,62 @@
 export const projectsList = [
   {
+    id: 4,
+    name: "Magic Reusable Cloth",
+    punchline: "Empowering Women, Sustaining Futures",
+    url: "https://www.youtube.com/watch?v=LVf8W2BrjR0",
+    type: "Website",
+    tech: "Figma-React",
+    description:
+      "Objective: Create a 2-in-1 washable cloth for women on their menstrual cycle and for babies' diapers.",
+    about:
+      "Current Phase: Research and development, with pilot programs starting in the most affected areas.",
+    highlights: {
+      category: "MVP",
+      duration: "Prototyping",
+      state: "Completed",
+      date: "5 members",
+      other: "No Info",
+    },
+    mainImage: "ecorebuild_images/projects/ecorebuild_pad.png",
+    images: {
+      img1: "ecorebuild_images/projects/ecorebuild_pad.png",
+      img2: "ecorebuild_images/projects/ecorebuild_pad1.png",
+      img3: "ecorebuild_images/projects/ecorebuild_pad2.png",
+    },
+  },
+  {
+    id: 3,
+    name: "Renewable Energy Solutions",
+    punchline: "Powering Progress with Sustainable Energy",
+    url: "https://www.gofundme.com/f/water-for-gaza-continuous-access-with-solar-power",
+    type: "Website",
+    tech: "MUI-React",
+    description:
+      "Objective: Develop accessible, renewable energy solutions tailored to the needs of Gaza’s communities, focusing on solar and wind power.",
+    about:
+      "Current Phase: Prototyping and initial deployment in selected areas.",
+    highlights: {
+      category: "MVP",
+      duration: "Designing",
+      state: "Completed",
+      date: "Oct 2022",
+      other: "No Info",
+    },
+    customer: {
+      name: "Silver Lining",
+      rating: "5",
+      reviews: "5 review",
+      email: "silverlining@gmail.com",
+      phone: "+65 0231 965 965",
+      img: "images/projects/silverlining.jpg",
+    },
+    images: {
+      img1: "ecorebuild_images/projects/water-solar-panel.jpg",
+      img2: "ecorebuild_images/projects/water_lamp.jpg",
+      img3: "ecorebuild_images/projects/simple_biomass.jpg",
+    },
+  },
+  {
     id: 1,
     name: "Soil Remediation with Plants and Fungi",
     punchline: "Healing the Land, Feeding the Future",
@@ -61,71 +118,6 @@ export const projectsList = [
       img1: "ecorebuild_images/projects/gaza_house.jpg",
       img2: "ecorebuild_images/projects/destroyed_house.jpeg",
       img3: "ecorebuild_images/projects/simple_house.jpeg",
-    },
-  },
-
-  {
-    id: 3,
-    name: "Renewable Energy Solutions",
-    punchline: "Powering Progress with Sustainable Energy",
-    url: "https://www.youtube.com/watch?v=LVf8W2BrjR0",
-    type: "Website",
-    tech: "MUI-React",
-    description:
-      "Objective: Develop accessible, renewable energy solutions tailored to the needs of Gaza’s communities, focusing on solar and wind power.",
-    about:
-      "Current Phase: Prototyping and initial deployment in selected areas.",
-    highlights: {
-      category: "MVP",
-      duration: "Designing",
-      state: "Completed",
-      date: "Oct 2022",
-      other: "No Info",
-    },
-    customer: {
-      name: "Silver Lining",
-      rating: "5",
-      reviews: "5 review",
-      email: "silverlining@gmail.com",
-      phone: "+65 0231 965 965",
-      img: "images/projects/silverlining.jpg",
-    },
-    images: {
-      img1: "ecorebuild_images/projects/gaza_kids_color_light.jpg",
-      img2: "ecorebuild_images/projects/water_lamp.jpg",
-      img3: "ecorebuild_images/projects/simple_biomass.jpg",
-    },
-  },
-  {
-    id: 4,
-    name: "Magic Reusable Cloth",
-    punchline: "Empowering Women, Sustaining Futures",
-    url: "https://www.youtube.com/watch?v=LVf8W2BrjR0",
-    type: "Website",
-    tech: "Figma-React",
-    description:
-      "Objective: Create a 2-in-1 washable cloth for women on their menstrual cycle and for babies' diapers.",
-    about:
-      "Current Phase: Research and development, with pilot programs starting in the most affected areas.",
-    highlights: {
-      category: "MVP",
-      duration: "Prototyping",
-      state: "Completed",
-      date: "5 members",
-      other: "No Info",
-    },
-    customer: {
-      name: "Take Off",
-      rating: "5",
-      reviews: "5 review",
-      email: "takeoff@gmail.com",
-      phone: "+65 0231 965 965",
-      img: "images/projects/takeoff.jpg",
-    },
-    images: {
-      img1: "ecorebuild_images/projects/colors_pad.jpg",
-      img2: "ecorebuild_images/projects/pad.png",
-      img3: "ecorebuild_images/projects/pink_pad.jpg",
     },
   },
 ];
