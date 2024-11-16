@@ -46,15 +46,15 @@ const Component21 = () => {
             </Text>
             <div className="flex sm:flex-col flex-row gap-[50px] items-center justify-center w-full">
               <Text
-                className="leading-[180.00%] max-w-[1200px] md:max-w-full text-center text-gray-600 text-lg"
+                className="leading-[180.00%] max-w-[1200px] md:max-w-full text-center text-gray-600 text-l"
                 size="txtManropeRegular18Gray600"
               >
-                We'd love to hear from you! Whether you have questions, want to
-                get involved, or need more information, feel free to reach out.
+                We'd love to hear from you! Message us if you have questions or
+                want to get involved
                 <br />
               </Text>
               <Img
-                className="h-auto object-cover rounded-[10px] w-[182px]"
+                className="h-auto object-cover rounded-[10px] w-[82px]"
                 src={general.logo}
                 alt="rectangle5616"
               />
@@ -118,15 +118,15 @@ const Component21 = () => {
                 >
                   Follow us
                 </Text>
-                  <Text
-                    className="leading-[180.00%] text-gray-600 text-lg"
-                    size="txtManropeSemiBold18Gray600"
-                  >
-                    <>
-                      {general.callToAction}
-                      <br />
-                    </>
-                  </Text>
+                <Text
+                  className="leading-[180.00%] text-gray-600 text-lg"
+                  size="txtManropeSemiBold18Gray600"
+                >
+                  <>
+                    {general.callToAction}
+                    <br />
+                  </>
+                </Text>
                 <div className="flex flex-row gap-4 items-start justify-start w-full">
                   <a target="_blank" rel="noreferrer" href={general.instagram}>
                     <svg

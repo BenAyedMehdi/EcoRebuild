@@ -3,7 +3,7 @@ import React from "react";
 import { Button, Img, Text, List } from "components";
 import { general } from "general";
 
-const Component10 = ({img, title, paragraph}) => {
+const Component10 = ({ img, title, paragraph }) => {
   return (
     <>
       <div className="bg-green-50 flex flex-col font-manrope items-center justify-center py-[40px] md:px-10 sm:px-5 w-full">
@@ -24,8 +24,8 @@ const Component10 = ({img, title, paragraph}) => {
             </div>
             <div className="flex flex-col gap-1.5 items-start justify-start w-full">
               <Text
-                className="text-gray-900 text-2xl tracking-[-0.40px] w-full"
-                size="txtManropeSemiBold20Gray900"
+                className="leading-[180.00%] max-w-[521px] md:max-w-full text-gray-700 text-l"
+                size="txtManropeRegular18Gray700"
               >
                 {paragraph}
               </Text>

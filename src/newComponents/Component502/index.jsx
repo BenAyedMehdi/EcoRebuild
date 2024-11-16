@@ -14,10 +14,10 @@ const Component502 = () => {
                 className="leading-[140.00%] max-w-[521px] md:max-w-full text-4xl sm:text-[32px] md:text-[34px] text-gray-900 tracking-[-0.72px]"
                 size="txtManropeExtraBold36"
               >
-                What is EcoRebuild?
+                Know EcoRebuild better
               </Text>
               <Text
-                className="leading-[180.00%] max-w-[521px] md:max-w-full text-gray-700 text-2xl"
+                className="leading-[180.00%] max-w-[521px] md:max-w-full text-gray-700 text-l"
                 size="txtManropeRegular18Gray700"
               >
                 EcoRebuild is a collaborative initiative aimed at fostering
@@ -31,7 +31,7 @@ const Component502 = () => {
           </div>
         </div>
         <Img
-          className="flex-1 md:flex-none h-[489px] sm:h-auto max-h-[489px] object-cover rounded-[10px] sm:w-[] md:w-[]"
+          className="flex-1 p-10 md:flex-none h-[389px] sm:h-auto max-h-[489px] object-cover rounded-[10px] sm:w-[] md:w-[]"
           src={general.images.img1}
           alt="rectangleTwenty_One"
         />

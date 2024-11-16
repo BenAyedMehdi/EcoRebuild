@@ -26,7 +26,7 @@ const Component4 = ({ projects }) => {
                 className="text-4xl sm:text-[32px] md:text-[34px] text-gray-900 tracking-[-0.72px] w-auto"
                 size="txtManropeExtraBold36"
               >
-                Explore Our Projects
+                We initiated some projects
               </Text>
               <Button
                 className="common-pointer bg-transparent cursor-pointer flex items-center justify-center min-w-[124px]"
@@ -45,11 +45,11 @@ const Component4 = ({ projects }) => {
               </Button>
             </div>
             <Text
-              className="leading-[180.00%] max-w-[531px] md:max-w-full text-gray-700 text-lg"
+              className="leading-[180.00%] max-w-[531px] md:max-w-full text-gray-700 text-l"
               size="txtManropeRegular18Gray700"
             >
               Discover the groundbreaking initiatives we're working on to
-              restore and rejuvenate Gaza's environment and infrastructure.
+              restore and strengthen Gaza's environment and infrastructure.
             </Text>
           </div>
           <div className="flex flex-col items-start justify-start w-full">

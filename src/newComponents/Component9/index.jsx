@@ -39,8 +39,8 @@ const Component9 = () => {
                     className="text-gray-700"
                     size="txtManropeRegular18Gray700"
                   >
-                    Participants engage in workshops designed to deepen their
-                    understanding of the unique challenges faced within Gaza.
+                    Workshops for participants to understand the unique
+                    challenges in Gaza.
                   </Text>
                 </div>
               </div>
@@ -62,8 +62,8 @@ const Component9 = () => {
                     className="text-gray-700"
                     size="txtManropeRegular18Gray700"
                   >
-                    Guided by experienced mentors, participants transformed
-                    their understanding and insights into actionable ideas.
+                    Guided by experienced mentors, transforming creative ideas
+                    into actionable solutions.
                   </Text>
                 </div>
               </div>
@@ -85,8 +85,8 @@ const Component9 = () => {
                     className="text-gray-700"
                     size="txtManropeRegular18Gray700"
                   >
-                    Teams transition from ideation to action, working closely
-                    with local communities to bring their solutions to life.
+                    Working closely with local communities to bring their
+                    solutions to life.
                   </Text>
                 </div>
               </div>

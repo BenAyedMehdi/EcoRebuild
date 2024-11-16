@@ -6,26 +6,22 @@ import { Link } from "react-router-dom";
 const Component2 = () => {
   return (
     <>
-      <div className="bg-green-50 flex flex-col font-manrope items-center justify-center p-[40px] md:px-10 sm:px-5 w-full">
+      <div className="bg-green-50 flex flex-col font-manrope items-center justify-center p-[10px] md:px-4 sm:px-3 w-full">
         <div className="flex flex-col font-manrope items-start justify-start md:px-10 sm:px-5 px-[120px] w-full">
           <div className="flex flex-row md:flex-col gap-6 items-center justify-center max-w-[1200px] mx-auto w-full">
-            <div className="bg-red-100 flex flex-1 flex-col h-[524px] md:h-auto items-start justify-center md:px-10 sm:px-5 px-[50px] py-[46px] rounded-[20px] w-full">
+            <div className="bg-red-100 flex flex-1 flex-col md:h-auto items-start justify-center md:px-10 sm:px-5 px-[50px] py-[46px] rounded-[20px] w-full">
               <div className="flex flex-col gap-[50px] items-start justify-start w-full">
                 <div className="flex flex-col gap-4 items-start justify-start w-full">
                   <Text
-                    className="leading-[140.00%] max-w-[488px] md:max-w-full text-4xl sm:text-[32px] md:text-[34px] text-gray-900 tracking-[-0.72px]"
+                    className="leading-[140.00%] max-w-[488px] md:max-w-full text-3xl sm:text-[32px] md:text-[34px] text-gray-900 tracking-[-0.72px]"
                     size="txtManropeExtraBold36"
                   >
-                    Goals and values
-                    <br />
-                    of EcoRebuild
+                    Clear Goals and values
                   </Text>
                   <Text
-                    className="leading-[180.00%] max-w-[488px] md:max-w-full text-gray-900 text-lg"
-                    size="txtManropeRegular18"
+                    className="leading-[180.00%] max-w-[531px] md:max-w-full text-gray-700"
+                    size="txtManropeRegular18Gray700"
                   >
-                    EcoRebuild aims to foster sustainable rebuilding in
-                    conflict-affected areas with innovative, low-cost solutions.
                     We empower communities through environmental renewal and
                     self-sufficiency, valuing resilience, sustainability, and
                     collaboration. Our mission is driven by a commitment to

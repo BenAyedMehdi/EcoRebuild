@@ -14,7 +14,7 @@ const Component8 = () => {
                 className="leading-[140.00%] sm:text-[40px] md:text-[46px] my-8 text-[54px] text-center text-gray-900 tracking-[-1.08px]"
                 size="txtManropeExtraBold54"
               >
-                <>What's our Vision?</>
+                <>Do you share our vision?</>
               </Text>
               {/* <Img
                 className="h-[300px] md:h-auto object-cover rounded-[10px] w-[300px]"
@@ -23,7 +23,7 @@ const Component8 = () => {
               /> */}
             </div>
             <Text
-              className="leading-[180.00%] max-w-[1200px] md:max-w-full text-center text-gray-700 text-2xl"
+              className="leading-[180.00%] max-w-[1200px] md:max-w-full text-center text-gray-700 text-xl"
               size="txtManropeBold24"
             >
               <>
@@ -46,18 +46,6 @@ const Component8 = () => {
                 className="md:h-[400px] sm:h-auto h-full max-h-[400px] object-cover rounded-[10px] sm:w-[] md:w-[]"
                 src={general.images.img9}
                 alt="rectangle5593"
-              />
-            </div>
-            <div className="flex md:flex-col flex-row gap-6 items-start justify-start w-full">
-              <Img
-                className="md:h-[400px] sm:h-auto h-full max-h-[400px] object-cover rounded-[10px] sm:w-[] md:w-[]"
-                src={general.images.img5}
-                alt="rectangle5595"
-              />
-              <Img
-                className="flex-1 md:flex-none h-[400px] sm:h-auto max-h-[400px] object-cover rounded-[10px] sm:w-[] md:w-[]"
-                src={general.images.img6}
-                alt="rectangle5594"
               />
             </div>
           </div>

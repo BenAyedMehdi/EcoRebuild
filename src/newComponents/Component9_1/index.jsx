@@ -10,17 +10,17 @@ const Component9_1 = () => {
       <div className="flex flex-col font-manrope items-center justify-center max-w-[1440px] pl-[120px] pr-[173px] md:px-10 sm:px-5 w-full">
         <div className="flex md:flex-col flex-row md:gap-10 gap-[84px] items-center justify-start max-w-[1147px] mx-auto w-full">
           <div className="flex flex-1 flex-col gap-11 items-start justify-start w-full">
-            <div className="flex flex-col gap-5 items-start justify-start w-full">
+            <div className="flex flex-col gap-3 items-start justify-start w-full">
               <Text
                 className="text-4xl sm:text-[32px] md:text-[34px] text-gray-900 tracking-[-0.72px] w-full"
                 size="txtManropeExtraBold36"
               >
-                Welcome to EcoRebuild
+                We believe in innovation
                 <br />
                 <br />
               </Text>
               <Text
-                className="leading-[180.00%] max-w-[531px] md:max-w-full text-gray-700 text-2xl"
+                className="leading-[180.00%] max-w-[531px] md:max-w-full text-gray-700 text-l"
                 size="txtManropeRegular18Gray700"
               >
                 At EcoRebuild, we are dedicated to{" "}

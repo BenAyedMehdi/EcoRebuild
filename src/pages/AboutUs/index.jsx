@@ -35,7 +35,7 @@ const AboutUsPage = ({ projects }) => {
         <Component5 />
         <Component10
           img={general.images.img3}
-          title={"Our mission is straightforward"}
+          title={"Understand our mission"}
           paragraph={
             "To develop and implement sustainable rebuilding projects that address urgent environmental and infrastructural challenges, providing communities with the tools and knowledge to rebuild better and stronger"
           }
