@@ -92,7 +92,7 @@ const Component26 = ({ faqsList }) => {
                             </Text>
                             <a
                               href={faq.url}
-                              className="common-pointer text-base text-gray-600 w-full hover:underline hover:text-blue-500"
+                              className="common-pointer text-base text-gray-600 w-full hover:underline hover:text-blue-500 break-words overflow-wrap-anywhere"
                               size="txtManropeSemiBold16Gray600"
                             >
                               {faq.url}
