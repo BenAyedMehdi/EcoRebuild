@@ -52,33 +52,53 @@ const Component26 = ({ faqsList }) => {
             <div className="bg-white-A700 border border-bluegray-100 border-solid flex flex-col items-start justify-start sm:px-5 px-[30px] py-7 rounded-[10px] w-full">
               <div className="flex flex-col gap-5 items-start justify-start w-full">
                 <List
-                  className="flex flex-col gap-5 items-center w-full"
+                  className="flex flex-col gap-7 items-center w-full"
                   orientation="vertical"
                 >
                   {FAQS.map((faq) => (
                     <React.Fragment key={`LandingPageCard${faq.id}`}>
-                      <div className="flex flex-1 flex-col gap-4 items-start justify-start w-full">
-                        <Text
-                          className="text-gray-900 text-2xl tracking-[-0.40px] w-full"
-                          size="txtManropeSemiBold20Gray900"
-                        >
-                          {faq.question}
-                        </Text>
-                        <div className="flex flex-col gap-2.5 items-start justify-start w-full">
-                          <Text
-                            className="text-base text-gray-600 w-full"
-                            size="txtManropeSemiBold16Gray600"
-                          >
-                            {faq.answer}
-                          </Text>
-                          <a
-                            className="common-pointer text-base text-gray-600 w-full hover:underline hover:text-blue-500"
-                            size="txtManropeSemiBold16Gray600"
-                            onClick={() => handleNavigate1(faq.url)}
-                          >
-                            {faq.url}
-                          </a>
-                        </div>
+                      <div className="flex flex-1 flex-col items-start justify-start w-full">
+                        <details className="group w-full" open={faq.id === 1}>
+                          <summary className="flex cursor-pointer list-none items-center gap-4 w-full">
+                            <Text
+                              className="text-gray-900 text-2xl tracking-[-0.40px] flex-1"
+                              size="txtManropeSemiBold20Gray900"
+                            >
+                              {faq.question}
+                            </Text>
+                            <span className="transition group-open:rotate-180 flex-shrink-0">
+                              <svg
+                                fill="none"
+                                height="24"
+                                shapeRendering="geometricPrecision"
+                                stroke="currentColor"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                strokeWidth="1.5"
+                                viewBox="0 0 24 24"
+                                width="24"
+                                className="min-w-[24px]"
+                              >
+                                <path d="M6 9l6 6 6-6"></path>
+                              </svg>
+                            </span>
+                          </summary>
+                          <div className="flex flex-col gap-2.5 items-start justify-start w-full group-open:animate-fadeIn mt-3 text-neutral-600">
+                            <Text
+                              className="text-base text-gray-600 w-full whitespace-pre-line"
+                              size="txtManropeSemiBold16Gray600"
+                            >
+                              {faq.answer}
+                            </Text>
+                            <a
+                              href={faq.url}
+                              className="common-pointer text-base text-gray-600 w-full hover:underline hover:text-blue-500 break-words overflow-wrap-anywhere"
+                              size="txtManropeSemiBold16Gray600"
+                            >
+                              {faq.url}
+                            </a>
+                          </div>
+                        </details>
                       </div>
                       {faq.id !== FAQS[FAQS.length - 1].id && (
                         <Line className="self-center h-px bg-bluegray-100 w-full" />
