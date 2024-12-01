@@ -18,7 +18,6 @@ export const faqsList = [
     question: "What are some of your key projects?",
     answer:
       "Our projects focus on addressing critical community needs with sustainability in mind: \n\n-Solar-Powered Water Wells in Gaza: Ensuring 24/7 access to clean water by equipping wells with solar panels.\n\n-Soil Detoxification: Using native plants to absorb toxins from the soil, transforming them into materials for local artisans.\n\n-Eco-Friendly Construction Blocks: Creating bricks from rubble to aid rebuilding efforts.\n\n-Reusable Hygiene Kits: Providing eco-friendly, reusable products for women and babies.",
-    url: "https://docs.google.com/forms/d/e/1FAIpQLSe9Z0v4JYD4_aLjb5ciIusvUuTP5msh2tnz4kIvYCBogAJIIg/viewform?usp=sharing",
   },
   {
     id: 4,
@@ -32,7 +31,7 @@ export const faqsList = [
     question: " How can I support EcoRebuild’s work?",
     answer:
       "Support can be offered in multiple ways:\n-Donations: Financial contributions help us fund critical projects.\n-Volunteering: Join our diverse team and contribute your skills.\n-Advocacy: Spread the word about our mission to increase awareness and reach.",
-    url: "",
+    url: "https://docs.google.com/forms/d/e/1FAIpQLSe9Z0v4JYD4_aLjb5ciIusvUuTP5msh2tnz4kIvYCBogAJIIg/viewform?usp=sharing",
   },
   {
     id: 6,
@@ -74,7 +73,7 @@ export const faqsList = [
     question: "How can I stay updated on EcoRebuild’s work?",
     answer:
       "Follow us on social media platforms and subscribe to our newsletter for regular updates, stories, and calls to action.",
-    url: "",
+    url: "https://docs.google.com/forms/d/e/1FAIpQLSe9Z0v4JYD4_aLjb5ciIusvUuTP5msh2tnz4kIvYCBogAJIIg/viewform?usp=sharing",
   },
   {
     id: 12,
