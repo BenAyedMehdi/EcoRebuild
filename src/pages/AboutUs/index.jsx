@@ -22,19 +22,10 @@ const AboutUsPage = ({ projects }) => {
   }, []);
   return (
     <>
-      <div className="bg-white-A700 flex flex-col font-markoone items-center justify-start mx-auto w-auto sm:w-full md:w-full ">
-        <div className="flex flex-col items-start justify-start w-full">
-          <LandingPageHeader />
-          {/* <div className="flex flex-1 flex-col items-center justify-start mx-auto w-full">
-            <Img
-              className="h-[450px] sm:h-auto object-cover w-full"
-              src={general.images.img2}
-              alt="coverimage"
-            />
-          </div> */}
-        </div>
+      <div className="bg-white-A700 flex flex-col font-markoone items-center justify-start mx-auto w-auto sm:w-full md:w-full">
+        <LandingPageHeader />
 
-        <div className="bg-sage-50 flex flex-col items-center justify-center py-20 px-4 md:px-8 lg:px-16">
+        <div className="mt-[32px] bg-sage-50 flex flex-col items-center justify-center py-20 px-4 md:px-8 lg:px-16">
           <h1 className="text-5xl md:text-6xl font-bold text-gray-900 text-center mb-6">
             Our Mission for Change
           </h1>

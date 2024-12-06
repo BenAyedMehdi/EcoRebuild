@@ -1,0 +1,32 @@
+/* Add these styles to handle the fixed header and banner */
+body {
+  padding-top: calc(32px + 80px); /* Banner height + Header height */
+}
+
+.fixed-header-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 40;
+  background: white;
+}
+
+/* Add smooth transition for banner */
+.banner-enter {
+  transform: translateY(-100%);
+}
+
+.banner-enter-active {
+  transform: translateY(0);
+  transition: transform 300ms ease-in-out;
+}
+
+.banner-exit {
+  transform: translateY(0);
+}
+
+.banner-exit-active {
+  transform: translateY(-100%);
+  transition: transform 300ms ease-in-out;
+} 
