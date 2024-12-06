@@ -1,70 +1,13 @@
 export const projectsList = [
   {
-    id: 4,
-    name: "Magic Reusable Cloth",
-    punchline: "Empowering Women, Sustaining Futures",
-    url: "https://www.youtube.com/watch?v=LVf8W2BrjR0",
-    type: "Website",
-    tech: "Figma-React",
-    description:
-      "Objective: Create a 2-in-1 washable cloth for women on their menstrual cycle and for babies' diapers.",
-    about:
-      "Current Phase: Research and development, with pilot programs starting in the most affected areas.",
-    highlights: {
-      category: "MVP",
-      duration: "Prototyping",
-      state: "Completed",
-      date: "5 members",
-      other: "No Info",
-    },
-    mainImage: "ecorebuild_images/projects/ecorebuild_pad.png",
-    images: {
-      img1: "ecorebuild_images/projects/ecorebuild_pad.png",
-      img2: "ecorebuild_images/projects/ecorebuild_pad1.png",
-      img3: "ecorebuild_images/projects/ecorebuild_pad2.png",
-    },
-  },
-  {
-    id: 3,
-    name: "Renewable Energy Solutions",
-    punchline: "Powering Progress with Sustainable Energy",
-    url: "https://www.gofundme.com/f/water-for-gaza-continuous-access-with-solar-power",
-    type: "Website",
-    tech: "MUI-React",
-    description:
-      "Objective: Develop accessible, renewable energy solutions tailored to the needs of Gaza’s communities, focusing on solar and wind power.",
-    about:
-      "Current Phase: Prototyping and initial deployment in selected areas.",
-    highlights: {
-      category: "MVP",
-      duration: "Designing",
-      state: "Completed",
-      date: "Oct 2022",
-      other: "No Info",
-    },
-    customer: {
-      name: "Silver Lining",
-      rating: "5",
-      reviews: "5 review",
-      email: "silverlining@gmail.com",
-      phone: "+65 0231 965 965",
-      img: "images/projects/silverlining.jpg",
-    },
-    images: {
-      img1: "ecorebuild_images/projects/water-solar-panel.jpg",
-      img2: "ecorebuild_images/projects/water_lamp.jpg",
-      img3: "ecorebuild_images/projects/simple_biomass.jpg",
-    },
-  },
-  {
     id: 1,
-    name: "Soil Remediation with Plants and Fungi",
+    name: "Soil Remediation Projects",
     punchline: "Healing the Land, Feeding the Future",
     url: "https://www.youtube.com/watch?v=LVf8W2BrjR0",
     type: "Project manager",
     tech: "MUI-React",
     description:
-      "Objective: Cleanse Gaza's contaminated soil using a mix of sunflowers, willow trees, certain grasses, and fungi like Mycelium.",
+      "Using native plants like sunflowers and mushrooms to detoxify contaminated soil, turning it into art materials for local artisans..",
     about:
       "Current Phase: Testing in lab, creating MVPs, with plans to apply on the ground by the end of June.",
     highlights: {
@@ -90,13 +33,12 @@ export const projectsList = [
   },
   {
     id: 2,
-    name: "Sustainable Eco-Friendly Bricks",
+    name: "Eco-Friendly Construction",
     punchline: "Building Resilient Homes, Restoring Hope",
     url: "https://www.youtube.com/watch?v=LVf8W2BrjR0",
     type: "Website",
     tech: "MUI-React",
-    description:
-      "Objective: Produce bricks using 70% rubble and 30% mud, promoting recycling and sustainability.",
+    description: "Transforming building rubble into durable, reusable bricks.",
     about:
       "Current Phase: Logistics planning for material collection and transportation, with pilot production set to begin soon.",
     highlights: {
@@ -118,6 +60,62 @@ export const projectsList = [
       img1: "ecorebuild_images/projects/gaza_house.jpg",
       img2: "ecorebuild_images/projects/destroyed_house.jpeg",
       img3: "ecorebuild_images/projects/simple_house.jpeg",
+    },
+  },
+  {
+    id: 4,
+    name: "Sustainable Hygiene Solutions",
+    punchline: "Empowering Women, Sustaining Futures",
+    url: "https://www.youtube.com/watch?v=LVf8W2BrjR0",
+    type: "Website",
+    tech: "Figma-React",
+    description: "Providing women and families with reusable hygiene products.",
+    about:
+      "Current Phase: Research and development, with pilot programs starting in the most affected areas.",
+    highlights: {
+      category: "MVP",
+      duration: "Prototyping",
+      state: "Completed",
+      date: "5 members",
+      other: "No Info",
+    },
+    mainImage: "ecorebuild_images/projects/ecorebuild_pad.png",
+    images: {
+      img1: "ecorebuild_images/projects/ecorebuild_pad.png",
+      img2: "ecorebuild_images/projects/ecorebuild_pad1.png",
+      img3: "ecorebuild_images/projects/ecorebuild_pad2.png",
+    },
+  },
+  {
+    id: 3,
+    name: "Solar-Powered Water Access",
+    punchline: "Powering Progress with Sustainable Energy",
+    url: "https://www.gofundme.com/f/water-for-gaza-continuous-access-with-solar-power",
+    type: "Website",
+    tech: "MUI-React",
+    description:
+      "Repairing and repurposing solar panels to supply clean water and power essential infrastructure.",
+    about:
+      "Current Phase: Prototyping and initial deployment in selected areas.",
+    highlights: {
+      category: "MVP",
+      duration: "Designing",
+      state: "Completed",
+      date: "Oct 2022",
+      other: "No Info",
+    },
+    customer: {
+      name: "Silver Lining",
+      rating: "5",
+      reviews: "5 review",
+      email: "silverlining@gmail.com",
+      phone: "+65 0231 965 965",
+      img: "images/projects/silverlining.jpg",
+    },
+    images: {
+      img1: "ecorebuild_images/projects/water-solar-panel.jpg",
+      img2: "ecorebuild_images/projects/water_lamp.jpg",
+      img3: "ecorebuild_images/projects/simple_biomass.jpg",
     },
   },
 ];
