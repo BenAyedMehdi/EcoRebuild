@@ -9,11 +9,12 @@ const BlogPagePage = () => {
   return (
     <>
       <div className="bg-gray-51 flex flex-col font-markoone items-start justify-start mx-auto w-auto sm:w-full md:w-full">
+        <h1>Hello</h1>
         <div className="flex flex-col md:gap-10 gap-[68px] items-center justify-start w-full">
-          <LandingPageHeader/>
+          <LandingPageHeader />
           <Component22 />
         </div>
-        <LandingPageFooter/>
+        <LandingPageFooter />
       </div>
     </>
   );

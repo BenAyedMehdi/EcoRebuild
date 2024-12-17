@@ -21,7 +21,7 @@ const Component7 = () => {
               </Text>
               <Button
                 className="common-pointer bg-transparent cursor-pointer flex items-center justify-center min-w-[124px]"
-                onClick={() => navigate("/listing")}
+                onClick={() => navigate("/BlogPage")}
                 rightIcon={
                   <Img
                     className="h-6 mb-[3px] ml-2"
@@ -41,25 +41,28 @@ const Component7 = () => {
             >
               <Component71
                 article={{
-                  name: "Why Gaza needs an enviromental renewal program? ",
-                  image: general.images.img5,
-                  link:"https://crafthub.events/from-not-knowing-hackathons-to-winning-one-in-just-a-month/",
+                  name: "Participation in the Climate Justice Camp (CJC)",
+                  image:
+                    "https://www.moroccoworldnews.com/wp-content/uploads/2022/09/climate-justice-camp-to-bring-together-hundreds-of-young-climate-enthusiasts-in-tunisia-800x378.jpeg",
+                  date: "September 2024",
+                  link: "/BlogDetails",
                 }}
               />
+              {/* todo: Add more blogs */}
               <Component71
                 article={{
-                  name: "Partnerships: Collaborations That Amplify Impact",
+                  name: "RCOY MENA 2024 Presentation: Showcasing Our Soil Detoxification Project",
                   image: general.images.img6,
                   date: "21 May 2024",
-                  link: "https://www.linkedin.com/posts/ben-ayed-mehdi_hackathon-startup-smb-activity-6997563433390878720-oMTg?utm_source=share&utm_medium=member_desktop",
+                  link: "/BlogDetails",
                 }}
               />
               <Component71
                 article={{
-                  name: "Local lives Transformed by EcoRebuild Projects",
+                  name: "First EcoRebuild Talk: Transforming Grief into Action and Revolution",
                   image: general.images.img7,
                   date: "27 June 2024",
-                  link:"https://www.linkedin.com/posts/ben-ayed-mehdi_informationtechnology-engineering-university-activity-6904784362886553600-TSx7?utm_source=share&utm_medium=member_desktop",
+                  link: "/BlogDetails",
                 }}
               />
             </List>

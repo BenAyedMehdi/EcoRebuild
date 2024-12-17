@@ -9,7 +9,7 @@ const Component71 = ({ article }) => {
     <>
       <div className="flex flex-1 flex-col gap-6 h-[487px] md:h-auto items-start justify-start w-full">
         <Img
-          className="md:h-auto h-full object-cover rounded-bl-[10px] rounded-br-[10px] w-full"
+          className="md:h-auto h-full object-contain rounded-bl-[10px] rounded-br-[10px] w-full"
           src={article.image}
           alt="image"
         />
@@ -22,7 +22,9 @@ const Component71 = ({ article }) => {
           </Text>
           <a
             className="flex flex-row gap-2 items-center justify-start w-full sm:w-full"
-            target="_blank"
+            // todo: implement only if we need to redirect the user to a new page, which we might not need
+            // target="_blank"
+            // rel="noreferrer"
             href={article.link}
           >
             <Text
