@@ -1,22 +1,23 @@
 export const servicesList = [
   {
     id: 1,
-    name: "Website development",
-    type: "Software",
+    name: "Participation in the Climate Justice Camp (CJC)",
+    type: "Event",
 
     punchline: "We can create any ful-stack website for you!",
     highlights: {
-      category: "MVP",
-      product: "Full-stack",
+      category: "Collaboration",
+      product: "Innovation",
       other: "No Info",
     },
+    link: "/BlogDetails",
     images: {
       img1: "images/generated/generated2.jfif",
       img2: "images/projects/11.jpg",
       img3: "images/projects/14.jpg",
     },
   },
-  { 
+  {
     id: 2,
     name: "Mobile Apps development",
     type: "Software",
@@ -27,6 +28,7 @@ export const servicesList = [
       product: "Mobile App",
       other: "No Info",
     },
+    link: "/BlogDetails",
     images: {
       img1: "images/generated/generated1.jfif",
       img2: "images/projects/11.jpg",
@@ -44,6 +46,7 @@ export const servicesList = [
       product: "graphics",
       other: "No Info",
     },
+    link: "/BlogDetails",
     images: {
       img1: "images/generated/generatedui.jfif",
       img2: "images/projects/11.jpg",
@@ -61,6 +64,7 @@ export const servicesList = [
       product: "marketing",
       other: "No Info",
     },
+    link: "/BlogDetails",
     images: {
       img1: "images/generated/generateddigitalmarketing.jfif",
       img2: "images/projects/11.jpg",
@@ -78,6 +82,7 @@ export const servicesList = [
       product: "innovation",
       other: "No Info",
     },
+    link: "/BlogDetails",
     images: {
       img1: "images/generated/generateddesignthing.jfif",
       img2: "images/projects/11.jpg",
@@ -95,6 +100,7 @@ export const servicesList = [
       product: "branding",
       other: "No Info",
     },
+    link: "/BlogDetails",
     images: {
       img1: "images/generated/generatedbranding.jfif",
       img2: "images/projects/11.jpg",

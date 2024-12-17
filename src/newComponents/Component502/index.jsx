@@ -14,18 +14,17 @@ const Component502 = () => {
                 className="leading-[140.00%] max-w-[521px] md:max-w-full text-4xl sm:text-[32px] md:text-[34px] text-gray-900 tracking-[-0.72px]"
                 size="txtManropeExtraBold36"
               >
-                Know EcoRebuild better
+                The Story of EcoRebuild
               </Text>
               <Text
                 className="leading-[180.00%] max-w-[521px] md:max-w-full text-gray-700 text-l"
                 size="txtManropeRegular18Gray700"
               >
-                EcoRebuild is a collaborative initiative aimed at fostering
-                sustainable rebuilding in conflict-affected regions. Our focus
-                is on creating practical, eco-friendly solutions that empower
-                communities to rebuild and thrive. We believe in the power of
-                innovation and community-driven efforts to create a positive
-                impact.
+                In the midst of challenge, hope finds a way to rise. EcoRebuild
+                began as an idea shared among passionate youth from diverse
+                backgrounds, fueled by a shared belief: communities impacted by
+                conflict deserve more than survival; they deserve renewal,
+                dignity, and empowerment
               </Text>
             </div>
           </div>

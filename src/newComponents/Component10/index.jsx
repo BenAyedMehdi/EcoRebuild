@@ -6,7 +6,7 @@ import { general } from "general";
 const Component10 = ({ img, title, paragraph }) => {
   return (
     <>
-      <div className="bg-green-50 flex flex-col font-manrope items-center justify-center py-[40px] md:px-10 sm:px-5 w-full">
+      <div className="bg-gray-50 flex flex-col font-manrope items-center justify-center py-[40px] md:px-10 sm:px-5 w-full">
         <div className="flex md:flex-col flex-row md:gap-10 gap-[158px] items-center justify-between max-w-[1250px] mx-auto w-full">
           <Img
             className="flex-1 md:flex-none h-[350px] sm:h-auto max-h-[350px] p-1 object-cover rounded-[10px] sm:w-[] md:w-[]"

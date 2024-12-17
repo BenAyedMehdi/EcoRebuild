@@ -14,7 +14,11 @@ const Component9 = () => {
                 className="text-4xl sm:text-[32px] md:text-[34px] text-gray-900 tracking-[-0.72px] w-full"
                 size="txtManropeExtraBold36"
               >
-                The Phases we go through in every project
+                Looking Ahead
+              </Text>
+              <Text className="text-gray-700" size="txtManropeRegular18Gray700">
+                EcoRebuild is more than an organization; it’s a movement. Our
+                vision for the future includes:
               </Text>
             </div>
             <List
@@ -26,22 +30,19 @@ const Component9 = () => {
                   className="border-2 border-gray-900 border-solid flex h-[35px] items-center justify-center rounded-[17px] text-center text-gray-900 text-xl tracking-[-0.40px] w-[35px]"
                   size="txtManropeExtraBold20"
                 >
-                  1
+                  O
                 </Text>
                 <div className="flex flex-1 flex-col gap-[17px] items-start justify-start w-full">
                   <Text
                     className="text-[22px] text-gray-900 sm:text-lg md:text-xl tracking-[-0.44px] w-full"
                     size="txtManropeBold22"
                   >
-                    Exploration phase
+                    Expanding the reach of our current projects.
                   </Text>
                   <Text
                     className="text-gray-700"
                     size="txtManropeRegular18Gray700"
-                  >
-                    Workshops for participants to understand the unique
-                    challenges in Gaza.
-                  </Text>
+                  ></Text>
                 </div>
               </div>
               <div className="flex flex-1 sm:flex-col flex-row gap-[26px] items-start justify-start my-0 w-full">
@@ -49,22 +50,20 @@ const Component9 = () => {
                   className="border-2 border-gray-900 border-solid flex h-[35px] items-center justify-center rounded-[17px] text-center text-gray-900 text-xl tracking-[-0.40px] w-[35px]"
                   size="txtManropeExtraBold20"
                 >
-                  2
+                  O
                 </Text>
                 <div className="flex flex-1 flex-col gap-[17px] items-start justify-start w-full">
                   <Text
                     className="text-[22px] text-gray-900 sm:text-lg md:text-xl tracking-[-0.44px] w-full"
                     size="txtManropeBold22"
                   >
-                    Creation phase
+                    Partnering with more global organizations to increase
+                    support.
                   </Text>
                   <Text
                     className="text-gray-700"
                     size="txtManropeRegular18Gray700"
-                  >
-                    Guided by experienced mentors, transforming creative ideas
-                    into actionable solutions.
-                  </Text>
+                  ></Text>
                 </div>
               </div>
               <div className="flex flex-1 sm:flex-col flex-row gap-[26px] items-start justify-start my-0 w-full">
@@ -72,24 +71,26 @@ const Component9 = () => {
                   className="border-2 border-gray-900 border-solid flex h-[35px] items-center justify-center rounded-[17px] text-center text-gray-900 text-xl tracking-[-0.40px] w-[35px]"
                   size="txtManropeExtraBold20"
                 >
-                  3
+                  O
                 </Text>
                 <div className="flex flex-1 flex-col gap-[17px] items-start justify-start w-full">
                   <Text
                     className="text-[22px] text-gray-900 sm:text-lg md:text-xl tracking-[-0.44px] w-full"
                     size="txtManropeBold22"
                   >
-                    Implementation phase
+                    Advocating for policy changes mostly in environmental
+                    recovery in conflict zones.
                   </Text>
                   <Text
                     className="text-gray-700"
                     size="txtManropeRegular18Gray700"
-                  >
-                    Working closely with local communities to bring their
-                    solutions to life.
-                  </Text>
+                  ></Text>
                 </div>
               </div>
+              <Text className="text-gray-700" size="txtManropeRegular18Gray700">
+                EcoRebuild is more than an organization; it’s a movement. Our
+                vision for the future includes:
+              </Text>
             </List>
           </div>
           <Img

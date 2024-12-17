@@ -5,19 +5,18 @@ import BlogPageColumnactive from "components/BlogPageColumnactive";
 import { servicesList } from "mock/services";
 
 const Component22 = () => {
-  
   const services = servicesList;
 
-const dropdownlargeOptionsList = [
-  { label: "Mobile App, Website", value: "option1" },
-  { label: "UI/UX design", value: "option2" },
-  { label: "Brand Care", value: "option3" },
-];
-const dropdownlargeOneOptionsList = [
-  { label: "Option1", value: "option1" },
-  { label: "Option2", value: "option2" },
-  { label: "Option3", value: "option3" },
-];
+  const dropdownlargeOptionsList = [
+    { label: "Mobile App, Website", value: "option1" },
+    { label: "UI/UX design", value: "option2" },
+    { label: "Brand Care", value: "option3" },
+  ];
+  const dropdownlargeOneOptionsList = [
+    { label: "Option1", value: "option1" },
+    { label: "Option2", value: "option2" },
+    { label: "Option3", value: "option3" },
+  ];
 
   return (
     <>
@@ -84,9 +83,7 @@ const dropdownlargeOneOptionsList = [
             <div className="md:gap-5 gap-6 grid sm:grid-cols-1 md:grid-cols-2 grid-cols-3 justify-center min-h-[auto] w-full">
               {services.map((service, index) => (
                 <React.Fragment key={`BlogPageColumnactive${index}`}>
-                  <BlogPageColumnactive
-                    service= {service}
-                  />
+                  <BlogPageColumnactive service={service} />
                 </React.Fragment>
               ))}
             </div>

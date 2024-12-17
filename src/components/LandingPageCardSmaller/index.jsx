@@ -1,0 +1,53 @@
+import React from "react";
+
+import { Button, Img, Text } from "components";
+import { Link } from "react-router-dom";
+
+const LandingPageCardSmaller = ({ project }) => {
+  const projectChoice = () => {
+    console.log(project.id);
+    localStorage.setItem("projectId", project.id);
+  };
+
+  const openYoutubeVideo = () => {
+    window.open(project.url, "_blank"); // replace with your YouTube video URL
+  };
+
+  return (
+    <div className="flex flex-1 flex-col gap-[27px] h-full items-start justify-start w-full">
+      <div className="bg-gray-51 border border-red-101 border-solid flex flex-col items-start justify-start px-5 py-[20px] rounded-[10px] w-full">
+        <div className="flex flex-col items-start justify-start w-full image-container relative">
+          <Img
+            className="h-[360px] w-full rounded-[10px] h-[100px]  object-cover transition-opacity duration-500 ease-in-out hover:opacity-10"
+            src={project?.images.img1}
+          />
+          <div className="px-[13px] rounded-[10px] absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-500 ease-in-out bg-black bg-opacity-70 text-white-A700">
+            <p>{project?.description}</p>
+          </div>
+        </div>
+        <div className="flex flex-col items-start justify-start w-full">
+          <div className="flex flex-row gap-3 pt-[20px] items-center justify-start w-full">
+            <Text
+              className="flex-1 text-lg text-gray-900 w-auto h-[50px]"
+              size="txtManropeSemiBold16"
+            >
+              {project?.name}
+            </Text>
+          </div>
+          <div className="flex flex-row gap-[31px] items-center justify-center w-full">
+            <Link to="/projectdetails" className="w-full">
+              <Button
+                onClick={projectChoice}
+                className="bg-gray-900 cursor-pointer flex-1 font-manrope font-semibold py-[8px] rounded-[10px] text-base text-center text-white-A700 w-full hover:bg-gray-700 transition-colors duration-300"
+              >
+                View Details
+              </Button>
+            </Link>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default LandingPageCardSmaller;
