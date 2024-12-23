@@ -25,4 +25,7 @@
 - Add project images Modal
 - Improve navigation buttons
 - fix mobile view screen bug
-- next: improve responsiveness
+- responsiveness improved
+- add 10 questions in FAQ page
+- add a draft for a blog page
+- Next: add new content
