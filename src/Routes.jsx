@@ -9,6 +9,7 @@ import PortfolioPage from "pages/PortfolioPage";
 import { projectsList } from "mock/projects";
 import { faqsList } from "mock/faqs";
 import ErrorPage from "pages/Error";
+import FundraiserPage from "pages/FundraiserPage";
 const License = React.lazy(() => import("pages/License"));
 const PrivacyPolicy = React.lazy(() => import("pages/PrivacyPolicy"));
 const FAQ = React.lazy(() => import("pages/FAQ"));
@@ -25,19 +26,26 @@ const ProjectRoutes = () => {
     <React.Suspense fallback={<>Loading...</>}>
       <Router>
         <Routes>
-          <Route path="/" element={<LandingPage projects={projectsList}/>} />
+          <Route path="/fundraiser" element={<FundraiserPage />} />;
+          <Route path="/" element={<LandingPage projects={projectsList} />} />
           <Route path="*" element={<ErrorPage />} />
-          <Route path="/about" element={<AboutUs projects={projectsList}/>} />
+          <Route path="/about" element={<AboutUs projects={projectsList} />} />
           <Route path="/services" element={<ServicesPage />} />
-          <Route path="/portfolio" element={<PortfolioPage projects={projectsList}/>} />
+          <Route
+            path="/portfolio"
+            element={<PortfolioPage projects={projectsList} />}
+          />
           <Route path="/propertydetails" element={<PropertyDetails />} />
           <Route path="/agentlist" element={<AgentList />} />
-          <Route path="/projectdetails" element={<ProjectPage projects={projectsList}/>} />
+          <Route
+            path="/projectdetails"
+            element={<ProjectPage projects={projectsList} />}
+          />
           <Route path="/contactpage" element={<ContactPage />} />
           <Route path="/blogpage" element={<BlogPage />} />
           <Route path="/blogdetails" element={<BlogDetails />} />
           <Route path="/error" element={<Error />} />
-          <Route path="/faq" element={<FAQ  faqsList={faqsList}/>} />
+          <Route path="/faq" element={<FAQ faqsList={faqsList} />} />
           <Route path="/privacypolicy" element={<PrivacyPolicy />} />
           <Route path="/license" element={<License />} />
           <Route path="/dhiwise-dashboard" element={<Home />} />
