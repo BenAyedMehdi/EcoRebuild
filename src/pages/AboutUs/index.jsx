@@ -15,6 +15,7 @@ import { Img } from "components";
 import { general } from "general";
 import Component182Smaller from "newComponents/Component182Smaller";
 import Component3EcoRebuild from "newComponents/Component3EcoRebuild";
+import GoalsAndValuesComponent from "newComponents/goals-and-values.component/goals-and-values.component";
 
 const AboutUsPage = ({ projects }) => {
   useEffect(() => {
@@ -39,6 +40,7 @@ const AboutUsPage = ({ projects }) => {
         <Component8 />
         <Component182Smaller projects={projects} />
         <Component3EcoRebuild />
+        <GoalsAndValuesComponent></GoalsAndValuesComponent>
         <Component10
           img={general.images.img3}
           title={"Challenges and Triumphs"}

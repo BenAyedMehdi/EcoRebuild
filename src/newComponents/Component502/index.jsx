@@ -20,11 +20,7 @@ const Component502 = () => {
                 className="leading-[180.00%] max-w-[521px] md:max-w-full text-gray-700 text-l"
                 size="txtManropeRegular18Gray700"
               >
-                In the midst of challenge, hope finds a way to rise. EcoRebuild
-                began as an idea shared among passionate youth from diverse
-                backgrounds, fueled by a shared belief: communities impacted by
-                conflict deserve more than survival; they deserve renewal,
-                dignity, and empowerment
+                EcoRebuild is a youth-led environmental renewal initiative that supports conflict-affected communities by promoting frugal innovation and sustainability. Founded by 22 passionate members from 12 countries, EcoRebuild is based in Jordan and focuses on practical projects that empower locals to rebuild their environment and lives with dignity. We blend ecological restoration with human resilience, embracing the idea that anger and grief can fuel impactful change. Our mission is to create tangible, community-driven solutions that bolster long-term stability.
               </Text>
             </div>
           </div>
