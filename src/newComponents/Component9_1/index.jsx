@@ -22,20 +22,10 @@ const Component9_1 = () => {
               <Text
                 className="leading-[180.00%] max-w-[531px] md:max-w-full text-gray-700 text-l"
                 size="txtManropeRegular18Gray700"
+                style={{ whiteSpace: 'pre-wrap' }}
               >
-                At EcoRebuild, we are dedicated to{" "}
-                <strong>environmental</strong> renewal and{" "}
-                <strong>community</strong> empowerment. Our mission is to
-                support <strong>sustainable</strong> rebuilding efforts in{" "}
-                <strong>conflict-affected</strong> areas through{" "}
-                <strong>innovative</strong>, cost-effective solutions.{" "}
-                <strong>Join us</strong> in making a difference today.
-                {/* At
-                EcoRebuild, we are dedicated to environmental renewal and
-                community empowerment. Our mission is to support sustainable
-                rebuilding efforts in conflict-affected areas through
-                innovative, cost-effective solutions. Join us in making a
-                difference today. */}
+                Welcome to EcoRebuild, where resilience meets action and the concept of “Now is the time for anger to be transformed into a revolution” drives everything we do. We believe in the power of <strong>community-led</strong> solutions to address the <strong>environmental</strong> and humanitarian challenges faced by <strong>conflict-affected</strong> areas.
+                {"\n\n"}Explore our site to learn about how we turn adversity into empowerment and create sustainable change on the ground.
               </Text>
             </div>
             {/* //Todo: place the button with the second component */}
