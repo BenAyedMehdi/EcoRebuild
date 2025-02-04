@@ -9,6 +9,48 @@ import Component14 from "newComponents/Component14";
 const Component15 = ({ project }) => {
   const projectDetails = project ?? projectsList[0];
 
+  function getParagraphs() {
+    if (!projectDetails.paragraphs || projectDetails.paragraphs.length <= 0) {
+      return [];
+    }
+
+    return projectDetails.paragraphs.map((paragraph, index) => (
+        <div key={index} className="block w-full mb-4">
+          <Text
+              className="block w-full text-gray-900 tracking-[-0.40px] text-justify whitespace-pre-line"
+              size="txtManropeMedium16"
+          >
+            {parseBoldText(paragraph.text)}
+          </Text>
+
+          {paragraph.points && paragraph.points.length > 0 && (
+              <ul className="list-disc list-outside ml-5">
+                {paragraph.points.map((point, pointIndex) => {
+                  const [boldText, regularText] = point.split(/:(.*)/s);
+
+                  return (
+                      <li key={pointIndex} className="text-gray-900 text-l mt-4">
+                        {/*{boldText && <span className="font-bold">{boldText}</span>}*/}
+                        {/*{regularText && `: ${regularText}`}*/}
+                        {parseBoldText(point)}
+                      </li>
+                  );
+                })}
+              </ul>
+          )}
+        </div>
+    ));
+  }
+
+  function parseBoldText(text) {
+    const parts = text.split(/(\*\*.*?\*\*)/g);
+    return parts.map((part, index) =>
+        part.startsWith("**") && part.endsWith("**")
+            ? (<span key={index} className="font-bold">{part.slice(2, -2)}</span>)
+            : (part)
+    );
+  }
+
   const openYoutubeVideo = () => {
     window.open(project.url, "_blank"); // replace with your YouTube video URL
   };
@@ -60,6 +102,7 @@ const Component15 = ({ project }) => {
                   >
                     {projectDetails?.description}
                   </Text>
+                  {getParagraphs()}
                   <Text
                     className="leading-[180.00%] max-w-[712px] md:max-w-full text-gray-600 text-lg"
                     size="txtManropeRegular18Gray600"
