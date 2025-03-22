@@ -19,7 +19,7 @@ const Component3EcoRebuild = () => {
             className="md:flex-1 sm:flex-col flex-row md:gap-10 gap-[100px] grid sm:grid-cols-1 md:grid-cols-2 grid-cols-3 w-full"
             orientation="horizontal"
           >
-            <div className="flex flex-col gap-[18px] items-start justify-start w-full">
+            <div className="flex flex-col gap-[18px] items-center justify-start w-full">
               <Button className="bg-white-A700 flex h-[60px] items-center justify-center p-3.5 rounded-[50%] shadow-bs w-[60px]">
                 <Img
                   className="h-8"
@@ -27,22 +27,22 @@ const Component3EcoRebuild = () => {
                   alt="checkmark"
                 />
               </Button>
-              <div className="flex flex-col gap-3.5 items-start justify-start w-full">
+              <div className="flex flex-col gap-3.5 items-center justify-start w-full">
                 <Text
-                  className="sm:text-4xl md:text-[42px] text-[46px] text-gray-900 tracking-[-0.92px] w-full"
+                  className="sm:text-4xl md:text-[42px] text-[46px] text-gray-900 tracking-[-0.92px] w-full text-center"
                   size="txtManropeExtraBold46"
                 >
                   +22
                 </Text>
                 <Text
-                  className="leading-[140.00%] max-w-[225px] md:max-w-full text-bluegray-600 text-xl tracking-[-0.40px]"
+                  className="leading-[140.00%] max-w-[225px] md:max-w-full text-bluegray-600 text-xl tracking-[-0.40px] text-center"
                   size="txtManropeSemiBold20"
                 >
                   Youth members from 12 different countries
                 </Text>
               </div>
             </div>
-            <div className="flex flex-col gap-[18px] items-start justify-start w-full">
+            <div className="flex flex-col gap-[18px] items-center justify-start w-full">
               <Button className="bg-white-A700 flex h-[60px] items-center justify-center p-3.5 rounded-[50%] shadow-bs w-[60px]">
                 <Img
                   className="h-8"
@@ -50,34 +50,34 @@ const Component3EcoRebuild = () => {
                   alt="arrowdown"
                 />
               </Button>
-              <div className="flex flex-col gap-3.5 items-start justify-start w-full">
+              <div className="flex flex-col gap-3.5 items-center justify-start w-full">
                 <Text
-                  className="sm:text-4xl md:text-[42px] text-[46px] text-gray-900 tracking-[-0.92px] w-full"
+                  className="sm:text-4xl md:text-[42px] text-[46px] text-gray-900 tracking-[-0.92px] w-full text-center"
                   size="txtManropeExtraBold46"
                 >
                   Jordan
                 </Text>
                 <Text
-                  className="leading-[140.00%] text-bluegray-600 text-xl tracking-[-0.40px]"
+                  className="leading-[140.00%] text-bluegray-600 text-xl tracking-[-0.40px] text-center"
                   size="txtManropeSemiBold20"
                 >
                   Our headquarters and center of operations
                 </Text>
               </div>
             </div>
-            <div className="flex flex-col gap-[18px] items-start justify-start w-full">
+            <div className="flex flex-col gap-[18px] items-center justify-start w-full">
               <Button className="bg-white-A700 flex h-[60px] items-center justify-center p-3.5 rounded-[50%] shadow-bs w-[60px]">
                 <Img className="h-8" src="images/img_reply.svg" alt="reply" />
               </Button>
-              <div className="flex flex-col gap-3.5 items-start justify-start w-full">
+              <div className="flex flex-col gap-3.5 items-center justify-start w-full">
                 <Text
-                  className="sm:text-4xl md:text-[42px] text-[46px] text-gray-900 tracking-[-0.92px] w-full"
+                  className="sm:text-4xl md:text-[42px] text-[46px] text-gray-900 tracking-[-0.92px] w-full text-center"
                   size="txtManropeExtraBold46"
                 >
                   +4
                 </Text>
                 <Text
-                  className="leading-[140.00%] max-w-[225px] md:max-w-full text-bluegray-600 text-xl tracking-[-0.40px]"
+                  className="leading-[140.00%] max-w-[225px] md:max-w-full text-bluegray-600 text-xl tracking-[-0.40px] text-center"
                   size="txtManropeSemiBold20"
                 >
                   Core teams led by dedicated champions
