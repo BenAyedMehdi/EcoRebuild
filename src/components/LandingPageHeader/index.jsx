@@ -32,6 +32,20 @@ const LandingPageHeader = () => {
     return () => window.removeEventListener("resize", checkIfMobile);
   }, []);
 
+  // Close menu when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (isMenuOpen && !event.target.closest("header")) {
+        setIsMenuOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [isMenuOpen]);
+
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
@@ -81,51 +95,57 @@ const LandingPageHeader = () => {
               </nav>
             )}
 
+            {/* Desktop Donate Button */}
+            {!isMobile && (
+              <div>
+                <Link to="/contactpage" aria-label="Donate">
+                  <Button className="bg-gray-900 cursor-pointer font-manrope font-semibold py-2.5 px-4 rounded-[10px] text-base text-center text-white-A700 hover:bg-gray-700 transition-colors duration-300">
+                    Donate
+                  </Button>
+                </Link>
+              </div>
+            )}
+
             {/* Mobile Hamburger Icon */}
             {isMobile && (
               <button
                 onClick={toggleMenu}
-                className="p-2 focus:outline-none"
+                className="p-2 focus:outline-none z-50"
                 aria-label="Toggle menu"
+                aria-expanded={isMenuOpen}
               >
                 <div
-                  className={`w-6 h-0.5 bg-gray-900 mb-1.5 transition-all ${
+                  className={`w-6 h-0.5 bg-gray-900 mb-1.5 transition-all duration-300 ${
                     isMenuOpen ? "transform rotate-45 translate-y-2" : ""
                   }`}
                 ></div>
                 <div
-                  className={`w-6 h-0.5 bg-gray-900 mb-1.5 ${
+                  className={`w-6 h-0.5 bg-gray-900 mb-1.5 transition-all duration-300 ${
                     isMenuOpen ? "opacity-0" : "opacity-100"
                   }`}
                 ></div>
                 <div
-                  className={`w-6 h-0.5 bg-gray-900 transition-all ${
+                  className={`w-6 h-0.5 bg-gray-900 transition-all duration-300 ${
                     isMenuOpen ? "transform -rotate-45 -translate-y-2" : ""
                   }`}
                 ></div>
               </button>
             )}
-
-            {/* Call to Action Button - Always visible */}
-            <div className={isMobile ? "ml-auto mr-4" : ""}>
-              <Link to="/contactpage" aria-label="Donate">
-                <Button className="bg-gray-900 cursor-pointer font-manrope font-semibold py-2.5 px-4 rounded-[10px] text-base text-center text-white-A700 hover:bg-gray-700 transition-colors duration-300">
-                  Donate
-                </Button>
-              </Link>
-            </div>
           </div>
 
           {/* Mobile Navigation Menu */}
-          {isMobile && isMenuOpen && (
-            <div className="bg-white-A700 shadow-lg absolute left-0 right-0 z-50 transition-all duration-300 ease-in-out">
+          {isMobile && (
+            <div
+              className={`bg-white-A700 shadow-lg absolute left-0 right-0 z-40 transition-all duration-300 ease-in-out ${
+                isMenuOpen
+                  ? "max-h-[500px] opacity-100"
+                  : "max-h-0 opacity-0 pointer-events-none"
+              } overflow-hidden`}
+            >
               <nav className="py-4">
                 <ul className="flex flex-col">
                   {NAVIGATION_ITEMS.map((item) => (
-                    <li
-                      key={item.path}
-                      className="border-b border-gray-100 last:border-b-0"
-                    >
+                    <li key={item.path} className="border-b border-gray-100">
                       <Link
                         to={item.path}
                         onClick={() => setIsMenuOpen(false)}
@@ -140,6 +160,18 @@ const LandingPageHeader = () => {
                       </Link>
                     </li>
                   ))}
+                  {/* Donate Button in Mobile Menu */}
+                  <li className="py-4 px-6">
+                    <Link
+                      to="/contactpage"
+                      onClick={() => setIsMenuOpen(false)}
+                      className="block"
+                    >
+                      <Button className="bg-gray-900 cursor-pointer font-manrope font-semibold py-3 px-4 rounded-[10px] text-base text-center text-white-A700 hover:bg-gray-700 transition-colors duration-300 w-full">
+                        Donate
+                      </Button>
+                    </Link>
+                  </li>
                 </ul>
               </nav>
             </div>
@@ -149,6 +181,14 @@ const LandingPageHeader = () => {
 
       {/* Spacer to prevent content from hiding behind fixed header */}
       <div className="h-[calc(80px+32px)]"></div>
+
+      {/* Overlay when menu is open */}
+      {isMobile && isMenuOpen && (
+        <div
+          className="fixed inset-0 bg-black bg-opacity-50 z-30"
+          onClick={() => setIsMenuOpen(false)}
+        ></div>
+      )}
     </>
   );
 };
